@@ -25,7 +25,7 @@ async function generateAudio() {
 
     const rawData = await response.json();
     const data = JSON.parse(rawData.body);  // parse the JSON
-
+    console.log(data.audioUrl)
     if (data.audioUrl) {
     resultDiv.innerHTML = `
         <p>Audio generated:</p>
