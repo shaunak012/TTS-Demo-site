@@ -23,15 +23,26 @@ async function generateAudio() {
       body: JSON.stringify({ text })
     });
 
-    const data = await response.json();
+    const rawData = await response.json();
+    const data = JSON.parse(rawData.body);  // parse the JSON
 
-    if (response.ok && data.fileUrl) {
-      audioPlayer.src = data.fileUrl;
-      audioPlayer.style.display = 'block';
-      statusText.textContent = 'Success! Click play to listen.';
+    if (data.audioUrl) {
+    resultDiv.innerHTML = `
+        <p>Audio generated:</p>
+        <audio controls src="${data.audioUrl}" style="margin-top:10px;"></audio>
+        <p><a href="${data.audioUrl}" target="_blank" download>Download MP3</a></p>
+    `;
     } else {
-      throw new Error(data.message || 'Error generating audio.');
+    resultDiv.innerHTML = 'Something went wrong. No audio URL found.';
     }
+
+    // if (response.ok && data.fileUrl) {
+    //   audioPlayer.src = data.fileUrl;
+    //   audioPlayer.style.display = 'block';
+    //   statusText.textContent = 'Success! Click play to listen.';
+    // } else {
+    //   throw new Error(data.message || 'Error generating audio.');
+    // }
 
   } catch (error) {
     statusText.textContent = 'Error: ' + error.message;
