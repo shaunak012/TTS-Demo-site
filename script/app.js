@@ -1,7 +1,6 @@
 async function generateAudio() {
     const textInput = document.getElementById('inputText');
     const statusText = document.getElementById('status');
-    const audioPlayer = document.getElementById('audioPlayer');
     const resultDiv = document.getElementById('result');
 
     const text = textInput.value.trim();
@@ -12,8 +11,6 @@ async function generateAudio() {
     }
 
     statusText.textContent = 'Generating audio...';
-    audioPlayer.style.display = 'none';
-    audioPlayer.src = '';
 
     try {
         const response = await fetch('https://aog369pvx0.execute-api.ap-south-1.amazonaws.com/production/generate-audio', {
