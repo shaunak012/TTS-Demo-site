@@ -34,6 +34,20 @@ Architecture Diagram
 
 ---
 
+## 📂 Folder Structure
+aws-polly-tts/ \
+├── README.md \
+├── Architecture_diagram.png \
+├── LICENSE \
+├── Demo.mp4 \
+├── index.html \
+├── style/ \
+│ &ensp;&ensp;  └── home.css \
+├── script/ \
+| &ensp;&ensp;   └── app.js 
+
+---
+
 ## 📤 Deployment
 
 Backend:
@@ -89,7 +103,7 @@ This project was built as a practical showcase after earning:
 
 ## 🗨 Want to Chat?
 
-Connect with me on [LinkedIn](https://www.linkedin.com/in/<your-profile>)  
+Connect with me on [LinkedIn](https://www.linkedin.com/in/shaunak-shukla/)  
 Always happy to discuss serverless, AI, or cloud builds ☁🚀
 
 ---
