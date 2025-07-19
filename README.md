@@ -8,7 +8,7 @@ A lightweight web application that converts text to speech using *AWS Polly*, *L
 
 ## 🚀 Demo Video
 
-🔗 [![Try the TTS App](Demo.mp4)](Demo.mp4)
+https://github.com/shaunak012/TTS-Demo-site/blob/main/Demo.mp4
 
  Type some text, click "Convert", and hear it speak!
 
