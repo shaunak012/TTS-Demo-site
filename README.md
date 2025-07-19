@@ -1,8 +1,7 @@
 # 🗣 AWS Text-to-Speech Converter
 
-A lightweight web application that converts text to speech using *AWS Polly*, *Lambda*, *S3*, and *API Gateway* — with a clean frontend hosted on *GitHub Pages*.
-
- Built to showcase real-world AWS skills in serverless, storage, security, and frontend integration.
+A lightweight web application that converts text to speech using *AWS Polly*, *Lambda*, *S3*, and *API Gateway* — with a clean frontend hosted on *GitHub Pages*. \
+Built to showcase real-world AWS skills in serverless, storage, security, and frontend integration.
 
 ---
 
@@ -29,7 +28,7 @@ Type some text, click "Convert", and hear it speak!
 
 ## 🧱 Architecture
 
-![Architecture Diagram](Architecture_diagram.png)
+![Architecture Diagram](Architecture_diagram.png)\
 Architecture Diagram
 
 ---
@@ -103,7 +102,7 @@ This project was built as a practical showcase after earning:
 
 ## 🗨 Want to Chat?
 
-Connect with me on [LinkedIn](www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=shaunak-shukla)  
+Connect with me on [LinkedIn](www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=shaunak-shukla) \
 Always happy to discuss serverless, AI, or cloud builds ☁🚀
 
 ---
