@@ -103,7 +103,7 @@ This project was built as a practical showcase after earning:
 
 ## 🗨 Want to Chat?
 
-Connect with me on [LinkedIn](https://www.linkedin.com/in/shaunak-shukla/)  
+Connect with me on [LinkedIn](www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=shaunak-shukla)  
 Always happy to discuss serverless, AI, or cloud builds ☁🚀
 
 ---
